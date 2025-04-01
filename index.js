@@ -30,16 +30,4 @@ function decompress(compressedText) {
     });
 }
 
-const text = 'Test Mesajı';
-
-compress(text)
-    .then(compressed => {
-        console.log('Sıkıştırılmış Metin:', compressed);
-        return decompress(compressed);
-    })
-    .then(decompressed => {
-        console.log('Dekompresyon Sonucu:', decompressed);
-    })
-    .catch(err => console.error('Hata:', err));
-
 module.exports = { compress, decompress };
