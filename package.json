@@ -1,0 +1,19 @@
+{
+  "name": "text-compression",
+  "version": "2.0.0",
+  "description": "A simple text compression and decompression package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-waf": "^10.1.1",
+    "pako": "^2.1.0",
+    "text-compression": "^2.0.0"
+  }
+}
